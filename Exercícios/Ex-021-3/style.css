@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body{
+    font-family: sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+    
+}
+header{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+main{
+    background-color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+
+}
+article > aside{
+    background-color: lightgray;
+}
+nav > a{
+    text-decoration: none;
+    color: rgb(255, 250, 250);
+    font-weight: bold;
+    margin-right: 30px;
+    
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+nav{
+    background-color: black;
+}
